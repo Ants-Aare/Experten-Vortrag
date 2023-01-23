@@ -11,6 +11,7 @@ namespace AAA.XYRalityTest
         [ShowNonSerializedField, ReadOnly] private Vector3 _inputMoveDirection = Vector3.zero;
         [SerializeField, Self] private Rigidbody rBody;
 
+
         void FixedUpdate()
         {
             ReceiveInputs();
